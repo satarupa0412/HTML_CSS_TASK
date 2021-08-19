@@ -1,0 +1,191 @@
+.sign-up {
+align-items: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+}
+.email{
+align-items: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 17.4837px;
+line-height: 26px;
+width: 100%;
+color: #000000;
+}
+.pass{
+align-items: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 17.4837px;
+line-height: 26px;
+width: 100%;
+color: #000000;
+}
+.input-box{
+align-items: center;
+background: rgba(228, 241, 255, 0.78);
+height: 1.8rem;
+border: 0;
+width: 16rem;
+}
+.sign-up-butt{   
+width: 25%;
+height: 6%;
+margin-left: 14rem;
+background: #0075FF;
+border-radius: 6.99346px;
+    border: 0;
+}
+.right-form-elements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.holders{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 1rem 9rem;
+}
+.form-control{
+padding: 2rem;
+margin: 5rem 20rem 1rem 20rem;  
+box-sizing: border-box;
+background: #FFFFFF;
+border-radius: 30px;
+flex-direction: column;
+display: flex;
+}
+.form-element {
+    margin: 1rem 4rem 1rem 5rem;
+}
+.connect-with{
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+display: flex;
+align-items: center;
+font-size: 13.9869px;
+margin: 1rem 0rem 1rem 0rem;
+color: rgba(82, 82, 82, 0.8);
+}
+.hr-line1{
+   height:0px;
+        flex: 1;
+    margin: 0 0.5rem 0 1rem;
+}
+.hr-line2{
+    height:0px;
+    flex: 1;
+    margin: 0 0 0 0.5rem;
+}
+text-connect-with{
+  flex: 1;
+}
+.last-components{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17.4837px;
+color: #000000;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.logos{
+display: flex;
+flex-direction: row;
+margin: 0 2rem 0 5rem;
+justify-content: center;
+}
+.logo-class{
+    margin: 0 2rem 0 2rem;
+}
+.eye{
+height: 8px;
+width: 16px;
+margin-left: -30px;
+}
+@media(max-width: 385px){
+    body {
+    margin: 0;
+    height: 100%;
+}
+    .image{
+  width: 0;
+  height: 0;
+  }
+    .input-box{
+   align-items: center;
+   background: rgba(228, 241, 255, 0.78);
+   height: 1.5rem;
+   border: 0;
+   width: 13rem;
+ }
+    .form-element {
+    margin: 1rem 2rem 1rem 2rem;
+}
+    .form-control {
+        margin: 7rem 1rem 2rem 1rem;
+    }
+    .holders {
+        margin: 0 1rem 1rem 1.2rem;
+    }
+    .sign-up-butt{   
+margin: 2rem 0 3rem 6rem;
+}
+.sign-up {
+margin-left: 2rem; 
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+}
+.connect-with{
+display: flex;
+flex-direction: row;
+font-size: 10px;
+color: rgba(82, 82, 82, 0.8);
+justify-content: space-around;
+}
+    .hr-line1{
+   height:0px;
+    width: 50%;
+    margin-left: 0.1rem 
+}
+.hr-line2{
+    height:0px;
+    width: 40%;
+    margin-right: 0.2rem;
+}
+text-connect-with{
+  text-align: center; 
+    width: 100%  
+}
+    .logos{
+display: flex;
+flex-direction: row;
+margin: 0 1rem 0 2.5rem;
+justify-content: center;
+}
+.logo-class{
+    margin: 0 1rem 0 1rem;
+}
+ .last-components{
+font-size: 14.4837px;
+color: #000000;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 15px; 
+}
+.eye{
+height: 8px;
+width: 16px;
+margin-left : -30px;
+}   
+}
